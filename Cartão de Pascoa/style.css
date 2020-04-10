@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
+
+body {
+  font-size: 15pt;
+  background: #00FF00;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.title {
+  font-family: 'Lato',sans-serif;
+  font-family: 'Lobster',cursive; 
+  color: #FA00C8;
+  text-align: center;
+}
+.txt {
+  width: 200px;
+  height: 30px;
+  background: #FA00C8;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Lobster', cursive;
+  padding: 5px;
+  outline: 0;
+  color: white;
+  font-size: 12pt;
+}
+.btn {
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background: #FA00C8 ;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+}
+.card {
+  background: #FA00C8;
+  width: 320px;
+  height: 420px;
+  margin: 70px auto;
+  border: solid 2px red;
+  border-radius: 10px;
+}
+
+.card .card-content h3 {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Lobster', cursive;
+}
+
+.card .card-content p {
+  font-family: 'Lobster', cursive;
+  font-size: 16pt;
+  padding: 10px;
+  color: white;
+}
+#p1 {
+  margin-bottom: 0px;
+}
+#p2 {
+  margin-top: 0px;
+}
