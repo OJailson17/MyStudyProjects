@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True or false</title>
+    <!-- Style Links -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="type-value">
+            <h1>Tipo de input</h1>
+            <input type="radio" name="type" id="num-type" value="num" checked>
+            <label for="num-type">Number</label>
+            <input type="radio" name="type" id="str-type" value="str">
+            <label for="str-type">String</label>
+            <input type="radio" name="type" id="boo-type" value="boo">
+            <label for="boo-type">Boolean</label>
+        </div>
+        <div class="input-value">
+            <p>Insira os valores de comparação</p>
+            <input type="text" class="input" id="first-value" placeholder="Insira um valor aqui">
+            <strong>=</strong>
+            <input type="text" class="input" id="second-value" placeholder="Insira um valor aqui">
+        </div>
+        <div class="btn-submit">
+            <input type="submit" class="btn" value="Submit">
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
