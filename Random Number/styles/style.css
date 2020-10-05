@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/fundo-tela.jpg');
+
+}
+
+/* Nav */
+nav{
+    width: 100%;
+    height: 7rem;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+nav h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
+}
+
+/* Container */
+.container{
+    position: absolute;
+    width: 50rem;
+    height: 25rem;
+    top: 12rem;
+    left: 25rem;
+    background: #FFFFFF;
+    border-radius: 2.4rem;
+    justify-content: center;
+    align-items: center;
+}
+.p-text{
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 700;
+    font-size: 30px;
+}
+.result-btn{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 30rem;
+    height: 4rem;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 800;
+    font-style: normal;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Opções extras */
+.check-box-options{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.check-box-options label{
+    margin-right: 20px;
+}
+
+/* Inputs do usuário */
+.input-values{
+    text-align: center;
+    margin-left: 40px;
+}
+.input-values p{
+    display: inline;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#max{
+    margin-left: 110px;
+}
+.input{
+    width: 11.8rem;
+    height: 2.5rem;
+    margin-right: 1.87rem;
+    margin-top: 3px;
+    padding: 5px;
+    outline: none;
+    font-style: normal;
+    border: none;
+    border-radius: 10px;
+    background-color: #EFEFEF
+}
+/* Retira as setas do input type number */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Botão */
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+    width: 12.5rem;
+    height: 3.1rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    transition: background .3s;
+}
+.btn:hover{
+    background: #c4c4c4;
+}
