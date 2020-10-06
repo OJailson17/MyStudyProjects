@@ -1,7 +1,7 @@
 let btn = document.querySelector('.btn').addEventListener('click', function(){
     let city =  document.querySelector('.city-input').value;
     let result = document.querySelector('.result');
-    let key = `adc22782576a7eecad238733f4199acc`
+    let key = //aqui deve ser colocada a chave do openweathermap
     let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`;
     
 fetch(url)
